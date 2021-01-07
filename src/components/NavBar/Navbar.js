@@ -7,6 +7,7 @@ function Navbar() {
 
 // sets value to opposite of current click value //
     const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
 
     return (
         <>
@@ -19,6 +20,21 @@ function Navbar() {
                         {/* toggles icons between menu styles */}
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                        <li className='nav-item'>
+                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                                Home</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+                                Projects</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+                                About</Link>
+                        </li>
+
+                    </ul>
                 </div>
             </nav>
 
