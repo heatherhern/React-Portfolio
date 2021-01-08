@@ -1,13 +1,13 @@
-/* image {
+image {
     object-fit: cover;
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: -1;
-  } */
+  }
 
 .hero-container {
-    background: url('../../../public/images/desk.jpg') center center/cover no-repeat;
+    background: url('../../images/desk.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;
