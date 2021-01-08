@@ -1,7 +1,7 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect } from 'react'
 import { Link } from 'react-router-dom';
-import './Navbar.css'
-import { Button } from '../Button/'
+import './style.css'
+import { Button } from '../Button'
 
 function Navbar() {
     // set state for nav bar click styles //
@@ -20,6 +20,10 @@ function Navbar() {
         }
     };
 
+    useEffect(() => {
+        showButton();
+    }, []);
+
     window.addEventListener('resize', showButton);
 
     return (
@@ -27,7 +31,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
-                        HEATHER <i className="fas fa-seedling"></i>
+                        heather hern
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         {/* toggles icons between menu styles */}
@@ -36,23 +40,23 @@ function Navbar() {
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                                Home</Link>
+                                home</Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
-                                Projects</Link>
+                                projects</Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                                About</Link>
+                                about</Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
-                                Contact</Link>
+                                contact</Link>
                         </li>
                     </ul>
 
-                        {button && <Button buttonStyle='btn--outline'>Contact</Button>}
+                        {button && <Button buttonStyle='btn--outline'>contact</Button>}
 
                 </div>
             </nav>
