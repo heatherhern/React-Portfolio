@@ -1,12 +1,14 @@
 import React from 'react'
-import '../App.css'
+import '../../../src/App.css'
 import { Button } from '../Button'
 import "./style.css"
 
 function Hero() {
     return (
         <div className='hero-container'>
-            <image src="../public/images/desk.jpg" />
+            <image src="..../public/images/desk.jpg"> 
+
+            </image>
             <h1>welcome to my site this is the hero text</h1>
             <p> a pee tag </p>
 
