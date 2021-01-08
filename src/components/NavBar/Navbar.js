@@ -6,7 +6,6 @@ import { Button } from '../Button/'
 function Navbar() {
     // set state for nav bar click styles //
     const [click, setClick] = useState(false);
-
     const [button, setButton] = useState(true);
 
     // sets value to opposite of current click value //
