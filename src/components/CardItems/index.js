@@ -20,4 +20,4 @@ function CardItem() {
     );
 }
 
-export default CardItem
+export default CardItem;
