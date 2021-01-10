@@ -9,7 +9,7 @@ function Hero() {
             <image src="..../public/images/desk.jpg"> 
 
             </image>
-            <h1>welcome to my site this is the hero text</h1>
+            <h1>hero text</h1>
             <p> a pee tag </p>
 
             <div className="hero-btns">
