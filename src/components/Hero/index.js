@@ -2,11 +2,12 @@ import React from 'react'
 import '../../../src/App.css'
 import { Button } from '../Button'
 import "./style.css"
+import desk from "../../images/desk.jpg"
 
 function Hero() {
     return (
         <div className='hero-container'>
-            <image src="..../public/images/desk.jpg"> 
+            <image src={desk}> 
 
             </image>
             <h1>hero text</h1>
