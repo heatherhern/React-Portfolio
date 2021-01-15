@@ -1,6 +1,8 @@
-import React from 'react'
+import React from 'react';
 import "../../App.css";
+import desk from "../../images/desk.jpg"
 
 export default function About() {
-    return <h1 className='about'>ABOUT</h1>
+    <image src={desk}> </image>
+    return <h1 className='about'>ABOUT</h1>;
 }

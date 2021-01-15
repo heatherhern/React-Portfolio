@@ -1,44 +1,41 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Source Code Pro', monospace;
-  }
-  
-  .home,
-  .projects,
-  .about,
-  .contact {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
-  
-  .projects {
-    background-image: ('../src/images/software.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .about {
-    background-image: ('../src/images/heather.jpg');
-    background-position: center;
-    background-size: fill;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .contact {
-    background-image: ('../src/images/hunter.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.home, .projects, .about, .contact {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.projects {
+  background-image: url('./images/software.jpg');
+  background-position: center;
+  background-size: cover; 
+  background-repeat: no-repeat;
+  color: #fff; 
+  font-size: 50px;
+}
+
+.about {
+  background-image: url('./images/software.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 50px;
+}
+
+.contact {
+  background-image: url('./images/software.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 50px;
+}

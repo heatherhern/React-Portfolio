@@ -54,7 +54,6 @@ function Navbar() {
                         {button && <Button buttonStyle='btn--outline'>contact</Button>}
                 </div>
             </nav>
-
         </>
     )
 }
