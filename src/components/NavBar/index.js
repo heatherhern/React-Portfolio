@@ -50,15 +50,8 @@ function Navbar() {
                             <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
                                 about</Link>
                         </li>
-                        <li className='nav-item'>
+                        </ul>
                         {button && <Button buttonStyle='btn--outline'>contact</Button>}
-                        </li>
-
-
-
-
-                    </ul>
-                        {/* {button && <Button buttonStyle='btn--outline'>contact</Button>} */}
                 </div>
             </nav>
 

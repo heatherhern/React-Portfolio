@@ -17,7 +17,7 @@
   }
   
   .projects {
-    background-image: ('../public/images/software.jpg');
+    background-image: ('../src/images/software.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@
   }
   
   .about {
-    background-image: ('../public/images/desk.jpg');
+    background-image: ('../src/images/heather.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -35,7 +35,7 @@
   }
   
   .contact {
-    background-image: ('../public/images/warehouse.jpg');
+    background-image: ('../src/images/hunter.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
