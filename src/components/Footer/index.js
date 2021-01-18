@@ -6,24 +6,6 @@ import { Link } from 'react-router-dom';
 function index() {
     return (
         <div className='footer-container'>
-            <section className='footer-email'>
-                <p className='footer-email-heading'>
-                    Let's work together!
-            </p>
-                <Button buttonStyle='btn--outline'>CONTACT ME</Button>
-            </section>
-
-
-
-            <div class='footer-links'>
-                <div className='footer-link-wrapper'>
-                    <div class='footer-link-items'>
-                        <Link to='/'>Home</Link>
-                        <Link to='/about'>About</Link>
-                        <Link to='/projects'>Projects</Link>
-                    </div>
-                </div>
-            </div>
 
             <section class='social-media'>
                 <div class='social-media-wrap'>
