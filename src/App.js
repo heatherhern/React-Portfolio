@@ -17,6 +17,38 @@ function App() {
           <Route path='/projects' component={Projects} />
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
+          <Route path='/employee-tracker' component={() => {
+            window.location.href = 'https://github.com/heatherhern/react-employee-tracker';
+            return null;
+          }} />
+          <Route path='/readme-generator' component={() => {
+            window.location.href = 'https://github.com/heatherhern/Easy-README-Generator';
+            return null;
+          }} />
+          <Route path='/note-taker' component={() => {
+            window.location.href = 'https://github.com/heatherhern/Note-Taker';
+            return null;
+          }} />
+          <Route path='/buger-logger' component={() => {
+            window.location.href = 'https://github.com/heatherhern/Burger-Logger';
+            return null;
+          }} />
+          <Route path='/space-quiz' component={() => {
+            window.location.href = 'https://github.com/heatherhern/Space-Quiz';
+            return null;
+          }} />
+          <Route path='/dev-team-generator' component={() => {
+            window.location.href = 'https://github.com/heatherhern/Development-Team-Generator';
+            return null;
+          }} />
+          <Route path='/password-gen' component={() => {
+            window.location.href = 'https://github.com/heatherhern/Random-Password-Generator';
+            return null;
+          }} />
+          <Route path='/weather-dash' component={() => {
+            window.location.href = 'https://github.com/heatherhern/Weather-Dashboard';
+            return null;
+          }} />
         </Switch>
       </Router>
     </>
