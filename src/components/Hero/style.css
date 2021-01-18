@@ -4,7 +4,7 @@ image {
     height: 100%;
     position: fixed;
     z-index: -1;
-  }
+}
 
 .hero-container {
     background: url('../../images/desk.jpg') center center/cover no-repeat;

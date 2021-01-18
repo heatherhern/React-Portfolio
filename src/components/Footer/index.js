@@ -1,6 +1,5 @@
 import React from 'react'
 import "./style.css"
-import { Button } from '../Button';
 import { Link } from 'react-router-dom';
 
 function index() {
@@ -10,7 +9,7 @@ function index() {
             <section class='social-media'>
                 <div class='social-media-wrap'>
                     <div class='footer-logo'>
-                        <Link to='/' className='social-logo'>
+                        <Link to='/' className='social-logo' style={{ textDecoration: 'none' }}>
                             heather hern
                         </Link>
                     </div>
@@ -19,36 +18,40 @@ function index() {
 
                         <Link
                             class='social-icon-link facebook'
-                            to='https://www.facebook.com/heather.newlin.1/'
+                            to='/facebook'
                             target='_blank'
                             aria-label='Facebook'
+                            style={{ textDecoration: 'none' }}
                         >
                             <i class='fab fa-facebook-f' />
                         </Link>
 
                         <Link
                             class='social-icon-link instagram'
-                            to='https://www.instagram.com/heaterhorn/'
+                            to='./instagram'
                             target='_blank'
                             aria-label='Instagram'
+                            style={{ textDecoration: 'none' }}
                         >
                             <i class='fab fa-instagram' />
                         </Link>
 
                         <Link
                             class='social-icon-link linkedin'
-                            to='https://www.linkedin.com/in/heather-hern-828539155/'
+                            to='/linkedin'
                             target='_blank'
                             aria-label='LinkedIn'
+                            style={{ textDecoration: 'none' }}
                         >
                             <i class='fab fa-linkedin' />
                         </Link>
 
                         <Link
                             class='social-icon-link github'
-                            to='https://github.com/heatherhern'
+                            to='/github'
                             target='_blank'
                             aria-label='Github'
+                            style={{ textDecoration: 'none' }}
                         >
                             <i class='fab fa-github' />
                         </Link>

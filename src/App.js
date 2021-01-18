@@ -49,6 +49,22 @@ function App() {
             window.location.href = 'https://github.com/heatherhern/Weather-Dashboard';
             return null;
           }} />
+          <Route path='/facebook' component={() => {
+            window.location.href = 'https://www.facebook.com/heather.newlin.1/';
+            return null;
+          }} />
+          <Route path='/instagram' component={() => {
+            window.location.href = 'https://www.instagram.com/heaterhorn/';
+            return null;
+          }} />
+          <Route path='/linkedin' component={() => {
+            window.location.href = 'https://www.linkedin.com/in/heather-hern-828539155/';
+            return null;
+          }} />
+          <Route path='/github' component={() => {
+            window.location.href = 'https://github.com/heatherhern';
+            return null;
+          }} />
         </Switch>
       </Router>
     </>
