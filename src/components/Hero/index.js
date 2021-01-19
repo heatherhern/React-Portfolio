@@ -15,7 +15,6 @@ function Hero(props) {
                 <h1>{props.header}</h1>
                 <p>{props.message}</p>
                 <div className="hero-btns">
-
                     <Button
                         className="btns"
                         buttonStyle="btn--primary"
