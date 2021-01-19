@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.69e53a52.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.e8e3fada.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.e8e3fada.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.ba1c2482.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.ba1c2482.js.map",
+    "static/js/2.858f2c41.chunk.js": "/React-Portfolio/static/js/2.858f2c41.chunk.js",
+    "static/js/2.858f2c41.chunk.js.map": "/React-Portfolio/static/js/2.858f2c41.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.69e53a52.chunk.css.map": "/React-Portfolio/static/css/main.69e53a52.chunk.css.map",
+    "static/js/2.858f2c41.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.858f2c41.chunk.js.LICENSE.txt",
+    "static/media/HeatherHernResume2021.62139885.pdf": "/React-Portfolio/static/media/HeatherHernResume2021.62139885.pdf",
+    "static/media/burgerlogger.c4e59484.png": "/React-Portfolio/static/media/burgerlogger.c4e59484.png",
+    "static/media/desk.ee71042d.jpg": "/React-Portfolio/static/media/desk.ee71042d.jpg",
+    "static/media/devteamgenerator.02a86523.png": "/React-Portfolio/static/media/devteamgenerator.02a86523.png",
+    "static/media/hunter.3702fc76.jpg": "/React-Portfolio/static/media/hunter.3702fc76.jpg",
+    "static/media/notetaker.7704f29b.png": "/React-Portfolio/static/media/notetaker.7704f29b.png",
+    "static/media/passwordgen.a50611c8.png": "/React-Portfolio/static/media/passwordgen.a50611c8.png",
+    "static/media/reactemployeetracker.0c50ac87.png": "/React-Portfolio/static/media/reactemployeetracker.0c50ac87.png",
+    "static/media/readmegenerator.9141ff9e.png": "/React-Portfolio/static/media/readmegenerator.9141ff9e.png",
+    "static/media/App.css": "/React-Portfolio/static/media/software.86247a4f.jpg",
+    "static/media/spacequiz.ef3825e6.png": "/React-Portfolio/static/media/spacequiz.ef3825e6.png",
+    "static/media/warehouse.02af0fa8.jpg": "/React-Portfolio/static/media/warehouse.02af0fa8.jpg",
+    "static/media/weatherdash.b5503843.jpg": "/React-Portfolio/static/media/weatherdash.b5503843.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ba1c2482.js",
+    "static/js/2.858f2c41.chunk.js",
+    "static/css/main.69e53a52.chunk.css",
+    "static/js/main.e8e3fada.chunk.js"
+  ]
+}
