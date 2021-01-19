@@ -3,11 +3,17 @@ import Hero from "../Hero";
 import "../../App.css";
 import Cards from "../Cards";
 import Footer from "../Footer";
+import desk from "../../images/desk.jpg";
 
 function Home() {
     return (
         <>
-            <Hero />
+            <Hero 
+            header="heather hern"
+            src={desk}
+            alt="desk image"
+            message="let's work together!"
+            />
             <Cards />
             <Footer />
         </>
