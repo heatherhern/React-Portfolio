@@ -6,3 +6,7 @@ export default function About() {
     <image src={desk}> </image>
     return <h1 className='about'>ABOUT</h1>;
 }
+
+
+
+//     height: 50vh;

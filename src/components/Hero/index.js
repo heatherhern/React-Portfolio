@@ -9,7 +9,7 @@ function Hero(props) {
             <div className='hero-container'>
                 <img
                     className="image"
-                    src={props.src} 
+                    src={props.src}
                     alt={props.alt}
                 />
                 <h1>{props.header}</h1>
