@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css"
 import { Link } from 'react-router-dom';
 
-function index() {
+function Footer() {
     return (
         <div className='footer-container'>
 
@@ -62,4 +62,4 @@ function index() {
     );
 }
 
-export default index
+export default Footer;

@@ -32,10 +32,22 @@
 }
 
 .contact {
-  background-image: url('./images/software.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 50px;
+}
+
+.list-group-contact {
+  position: absolute;
+  bottom: 175px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.list-group-item {
+  width: 300px;
 }
