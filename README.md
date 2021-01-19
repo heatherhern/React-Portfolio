@@ -3,6 +3,7 @@
 ![Portfolio Site Photo](./src/images/portfoliosite.png "Portfolio Site Photo")
 
 View live on Heroku: https://heather-react-portfolio-site.herokuapp.com/
+Github Pages link: https://heatherhern.github.io/React-Portfolio/
 
 ## Author(s)
 Heather Hern
