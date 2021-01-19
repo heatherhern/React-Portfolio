@@ -12,7 +12,7 @@ function Contactpage() {
             <Hero
                 header="contact"
                 src={warehouse}
-                alt="software image"
+                alt="chattanooga"
                 message="let's work together!"                
             />
             <ListGroup />
