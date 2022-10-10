@@ -31,7 +31,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo" onClick= {closeMobileMenu} style={{ textDecoration: 'none' }}>
-                        heather hern
+                        heather newlin
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         {/* toggles icons between menu styles */}
